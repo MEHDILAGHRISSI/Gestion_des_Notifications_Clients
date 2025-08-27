@@ -142,9 +142,6 @@ L'application sera accessible sur : `http://localhost:4200`
 
 ## 👤 Utilisation
 
-### Connexion par Défaut
-- **Email** : admin@cdg.ma
-- **Mot de passe** : admin123
 
 ### Workflow Principal
 
@@ -215,13 +212,6 @@ server.port=8081
 **Problème CORS :**
 - Vérifier que `CorsConfig.java` autorise l'origine du frontend
 
-## 🤝 Contribution
-
-1. Fork le projet
-2. Créer une branche feature (`git checkout -b feature/nouvelle-fonctionnalite`)
-3. Commit les changements (`git commit -m 'Ajout nouvelle fonctionnalité'`)
-4. Push vers la branche (`git push origin feature/nouvelle-fonctionnalite`)
-5. Ouvrir une Pull Request
 
 ## 📝 License
 
