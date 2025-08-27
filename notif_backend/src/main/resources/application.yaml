@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: store
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/notification?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: root
+    password: MyPassword!
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+
+  flyway:
+    enabled: false
